@@ -7,8 +7,7 @@
         image.src = src;
       if (!image.complete)
         return self.loadImage(src,cb,image)
-
-      $(self).attr('src',src)
+      self.attr('src',src)
       cb.call(self)
     },50);
   };
