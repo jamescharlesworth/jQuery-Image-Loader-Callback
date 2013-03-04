@@ -8,6 +8,7 @@ tag with a loader (which gets cached to the browser and only loads once, not for
 ### HTML
 ```html
 <img id="image-1" src="/path/to/loader.gif" />
+<img id="image-2" src="/path/to/loader.gif" data-src="path/to/src2.jpg" />
 ````
 ### Javascript
 ```javascript
@@ -15,10 +16,12 @@ $(document).ready(function(){
 	$("#image-1").loadImage('/path/to/new/image.jpg',function(){
 		$(this).css({height:'120px'});//alter the css styling after the image has loaded
 	});
+	$("#image-2").loadImage();
 });
 ```
+
 ### Example:
-[Example code on JS Fiddle](http://jsfiddle.net/jamescharlesworth/tBFKv/2/)
+[Example code on JS Fiddle](http://jsfiddle.net/MFHbq/)
 ### License
 (The MIT License)
 
