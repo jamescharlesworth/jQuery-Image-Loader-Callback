@@ -21,7 +21,7 @@ $(document).ready(function(){
 ```
 
 ### Example:
-[Example code on JS Fiddle](http://jsfiddle.net/MFHbq/)
+[Example code on JS Fiddle](http://jsfiddle.net/MFHbq/6/)
 ### License
 (The MIT License)
 
