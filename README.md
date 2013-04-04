@@ -1,5 +1,5 @@
 # jQuery Image Loader Callback
-Small plugin to dynamically load images as needed and provide a callback method for when they are loaded to the browser. 
+Small plugin to dynamically load images as needed and provide a callback method for when they are loaded to the browser.
 ## Use Case
 Most image galleries will load all the images to the page and hide them with css.  I wanted a way to only load images when the user
 requests to view them.  For example, am image gallery may show only 10 images at a time, but will much more than that on load. This is resource
@@ -21,7 +21,7 @@ $(document).ready(function(){
 ```
 
 ### Example:
-[Example code on JS Fiddle](http://jsfiddle.net/MFHbq/6/)
+[Example code on JS Fiddle](http://jsfiddle.net/MFHbq/7/)
 ### License
 (The MIT License)
 
@@ -44,5 +44,5 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-	
-	
+
+
